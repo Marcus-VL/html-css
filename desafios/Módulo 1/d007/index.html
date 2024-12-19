@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Flexibilizando imagens</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você consegue vizualizar essa imagem por completo? Caso não <br>consiga, experimente amplicar o tamanho da tela de possível.</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/lago-noite-400.jpg" type="image/jpg">
+        <source media="(max-width: 1230px)" srcset="imagens/lago-noite-720.jpg" type="image/jpg">
+        <img src="imagens/lago-noite-1200.jpg" alt="Paisagem de um lago a noite, contendo uma ponte na parte da direita, onde um garoto se encontra diante da água e de uma civilização mais a frente.">
+    </picture>
+</body>
+</html>
+
+<style>
+    body {
+        background:rgb(167, 143, 167)
+    }
+</style>

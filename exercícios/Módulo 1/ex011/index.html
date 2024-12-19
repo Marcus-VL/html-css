@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5 &#x1F913</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Imagens dinâmicas são aquelas que se adaptam  aos variados formatos de tela dos dispositivos, permitindo que o usuario possua uma melhor experiência.</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem grande">
+    </picture>
+        <audio controls>
+            <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        </audio>
+        <video src="midia/meu-video 720 30.mkv" autoplay></video>
+
+        <video controls>
+            <source src="midia/meu-video 720 30.mkv" type="video/mkv">
+        </video>
+        
+</body>
+</html>

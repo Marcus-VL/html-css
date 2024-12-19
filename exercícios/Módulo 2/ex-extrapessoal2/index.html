@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Visita Virtual</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+        body {
+            font-family: 'Bungee', Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, #4148E0, #6F41E0, #A241E0);
+        }
+
+        #cartao {
+            border: solid #A88000;
+            border-radius: 50px;
+            background-image: linear-gradient(to right, #A86B039f, #A880039f, #A893039f);
+            margin: 150px auto;
+            width: 1000px;
+            height: 600px;
+        }
+
+        #perfil > h1 {
+            color: rgb(198, 168, 255);
+            margin-left: 50px;
+            font-size: 45px;
+        }
+
+        #perfil {
+            display: inline-block;
+            width: 500px;
+            height: 600px;
+        }
+
+        img {
+            width: 400px;
+            border-radius: 20px;
+            margin-left: 50px;
+            border: 5px #4148E0;
+            display: inline-block;
+        }
+
+        .linha {
+            display: inline-block;
+            background-color: #0e1033;
+            height: 550px;
+            width: 3px;
+            border-radius: 10px;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+    
+    <main id="cartao">
+        <section id="perfil">
+            <h1>Cartão Virtual</h1>
+            <img src="perfil.jpg" alt="Foto de Perfil">
+        </section>
+        <div class="linha"></div>
+    </main>
+</body>
+</html>

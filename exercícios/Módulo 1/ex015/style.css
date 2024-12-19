@@ -1,0 +1,13 @@
+body {
+        background-color: lightblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+    }
+
+    h1 {
+        color: mediumblue; text-align: justify;
+    }
+
+    p {
+        text-align:justify;
+    } 
