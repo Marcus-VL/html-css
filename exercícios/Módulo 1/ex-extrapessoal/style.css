@@ -7,14 +7,15 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #F2A413, #A6530A);
+    background: #F2A413 url(https://restauranteyu.com.br/wp-content/uploads/2024/05/AMBIENTE_YU5-1-scaled.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
 
 main {
     margin: auto;
     padding: 15px;
     width: 750px;
-    background-color: #fdf8f3;
+    background-color: #fff2e6;
     border-radius: 30px;
 }
 
