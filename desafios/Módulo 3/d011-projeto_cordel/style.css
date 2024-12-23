@@ -29,7 +29,7 @@ header > h1 {
 }
 
 header > p {
-    font-size: 1.3em;
+    font-size: 1.6em;
     margin-top: 10px;
     text-align: center;
     font-family: var(--fonte1);
@@ -68,7 +68,7 @@ main {
 #bg-flor > p, #bg-folhas > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.473);
-    max-width: 600px;
+    max-width: 670px;
     min-width: 410px;
     padding: 5px;
     border-radius: 10px;
@@ -79,7 +79,7 @@ main {
 footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
-    padding: 9px;
+    padding: 20px 40px;
     background-color: black;
     color: white;
     text-align: center;

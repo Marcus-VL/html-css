@@ -78,7 +78,7 @@ header p {
 .linkcab, .linkcab:visited{
     
     padding: 10px;
-    color: #99ddb8;
+    color: #c3ffde;
     text-decoration: none;
     margin-left: 20px;
     font-size: 20px;
@@ -87,8 +87,8 @@ header p {
 
 .linkcab:hover {
     border-radius: 5px;
-    background-color:#2BA35D;
-    color: #005518;
+    background-color:#36ce75;
+    color: #05411c;
 }
 
 /*Conteúdo Principal*/
@@ -156,7 +156,7 @@ img, iframe {
 }
 
 .video {
-    padding: 20px 96px;
+    padding: 10px 60px;
     background-color: #1A5C38;
     margin: 0px -20px;
 }
@@ -177,7 +177,6 @@ aside > h3 {
 
 aside ul{
     list-style-type: '\2714';
-    margin-right: 180px;
     columns: 2;
 }
 
