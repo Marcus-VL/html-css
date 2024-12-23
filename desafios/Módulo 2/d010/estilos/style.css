@@ -25,7 +25,8 @@
 
 body {
     font-family: var(--fonte-padrao);
-    background-color: var(--cor0);
+    background: var(--cor0) url(https://www.techadvisor.com/wp-content/uploads/2022/06/Android_800-5.jpg?quality=50&strip=all) center center no-repeat fixed;
+    background-size: cover;
     margin: 0px;
 
 }
@@ -34,7 +35,9 @@ body {
 
 header {
     height: 180px;
-    background-image: linear-gradient(to top, var(--cor5), var(--cor2));
+    background: var(--cor3) url(https://papers.co/wallpaper/papers.co-ab14-wallpaper-mountain-high-green-6-wallpaper.jpg) center 20% no-repeat scroll;
+    background-size: cover; 
+    /*background-image: linear-gradient(to top, var(--cor5), var(--cor2));*/
     color: white;
     padding: 10px 0px 10px;
     margin: 0px 0px;
@@ -66,7 +69,8 @@ header p {
 
 .menu {
     padding: 14px;
-    background-color: var(--cor5);
+    background: var(--cor5) url(https://papers.co/wallpaper/papers.co-ab14-wallpaper-mountain-high-green-6-wallpaper.jpg) center 30% no-repeat scroll;
+    background-size: cover;
     box-shadow: 0px 18px 12px -15px black;
 
 }
