@@ -8,6 +8,9 @@ Curso de HTML5 e CSS3 do CursoEmVídeo.
 Projeto Android:
 https://marcus-vl.github.io/html-css/desafios/Módulo%202/d010/curiosidades.html
 
+Projeto Cordel:
+https://marcus-vl.github.io/html-css/desafios/Módulo%203/d011-projeto_cordel/cordel.html
+
 Cardápio - Ideia Própria:
 https://marcus-vl.github.io/html-css/exercícios/Módulo%201/ex-extrapessoal/index.html
 
