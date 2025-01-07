@@ -52,9 +52,15 @@ main {
     font-family: var(--fonte3);
 }
 
-.estrofe {
+.estrofe p {
     padding: 45px 30px;
 }
+
+.imagem {
+    
+    padding: 45px 30px;
+}
+
 #bg-flor {
     background: green url(pacote-d011/imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
@@ -65,7 +71,7 @@ main {
     background-size: cover;
 }
 
-#bg-flor > p, #bg-folhas > p {
+.imagem > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.473);
     max-width: 670px;
